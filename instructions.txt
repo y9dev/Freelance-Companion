@@ -1,0 +1,7 @@
+main.py — точка входа. Сюда кидать тестовый заказ агенту и смотреть результат
+agent.py — сердце моей части. Здесь будет ResponseAgent, который получает заказ, профиль пользователя и вызывает LLM.
+prompts.py — system prompt и формирование запроса
+models.py — структуры данных: Order, FreelancerProfile, возможно потом GeneratedResponse.
+config.py — настройки модели: название модели, temperature и прочее.
+.env — API key. В Git не коммитить.
+requirements.txt — зависимости.
